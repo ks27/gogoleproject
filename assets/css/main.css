@@ -1,0 +1,32 @@
+nav,li {
+    flex-flow:row wrap ;
+    list-style-type: none;
+    display: flex inline;
+    text-align: right;
+}
+
+.content {
+    display: flexbox;
+    text-align: center;
+    margin-top: 10%;
+}
+
+footer {
+    background-color: grey;
+    position:absolute;
+    bottom: 0em;
+    width: 99%;
+
+}
+
+.country {
+    margin-left: 2%;
+}
+
+input {
+    border-radius: 25px;
+}
+
+ul{
+    
+}
