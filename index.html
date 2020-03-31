@@ -8,33 +8,46 @@
     <title>GOOGLE</title>
 </head>
 <body>
-    <nav>
+    
+    <nav class="menu">
         <ul>
-            <li>gmail</li>
+            <li><a href="https://www.google.com">gmail</a></li>
             <li>images</li>
             <li><img src="assets/pic/"></li>
             <li>pic</li>
         </ul>
+        
     </nav>
+    <!-- fin navigation-->
+    <!--debut section contenu-->
     <section class="content">
         <div class="googlepic">
-            <p><img src="assets/pic/googlelogo_color_272x92dp.png" alt="logo google">
+            <p>
+                <img src="assets/pic/googlelogo_color_272x92dp.png" alt="logo google">
             </p>
          </div>
-         <form action="" method="post">
-            <input type="text"><i class="fas fa-search"></i>
-            <div>
-                <button>Recherhce Google</button>
-                <button>j'ai de la chance</button>
-            </div>         
+         <form action="" method="GET">
+             <div class="input-container">
+                <i class="fas fa-search"></i>
+                    <input class="searchfield" type="text" >
+                    <i class="mic">mic</i>
+                    <div>
+                        <button class="search">Recherhce Google</button>
+                        <button class="imlucky">j'ai de la chance</button>
+                    </div>
+                </div>
         </form>
-        
+        <!-- fin fomrulaire -->
+
+        <!-- covid 19 advice -->
         <div class="covid">
             <p>
-                <img src="assets/pic/dothefive_90x90t.gif" alt="">
+                <img src="assets/pic/dothefive_90x90t.gif" width="45" height="45" alt="">
                 <a href="http://">5 gestes barriere pour freiner le corona virus</a>
             </p>
         </div>
+
+        <!--aviable language-->
         <div>
             <p>Gooogle disponible en
               <a href="">English</a> 
@@ -45,8 +58,8 @@
             <div class="country">
                 <p>FRANCE</p>
             </div>
-            <div class="footer">
-                <ul>
+            <div class="footer-legal">
+                <ul class="menu-footer">
                     <li>Publicité</li>
                     <li>Entreprise</li>
                     <li>A propos</li>
@@ -60,5 +73,6 @@
             </div>
         
     </footer>
+    <script src="https://kit.fontawesome.com/9917aa8d07.js" crossorigin="anonymous"></script>
 </body>
 </html>

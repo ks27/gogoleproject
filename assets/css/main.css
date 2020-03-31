@@ -1,8 +1,16 @@
-nav,li {
+ul, li {
     flex-flow:row wrap ;
     list-style-type: none;
-    display: flex inline;
-    text-align: right;
+    display: inline;
+   
+    
+}
+
+nav {
+    display: inline;
+    position: fixed;
+    right: 2%;
+    top:2%;
 }
 
 .content {
@@ -11,22 +19,29 @@ nav,li {
     margin-top: 10%;
 }
 
+
+.searchfield {
+    border-radius: 25px;
+    background-image: ;
+}
 footer {
-    background-color: grey;
+    background-color:yellow;
     position:absolute;
     bottom: 0em;
     width: 99%;
+    
 
 }
 
 .country {
     margin-left: 2%;
+    border-bottom:solid 1px black;
 }
 
-input {
-    border-radius: 25px;
-}
 
-ul{
-    
+.menu-footer{
+    display: inline-flex;
+    padding: 0;
+    margin-left: 2%;
+    justify-content: space-evenly;
 }
