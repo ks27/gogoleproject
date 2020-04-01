@@ -18,11 +18,11 @@ nav {
 
 .button {
     border:1px solid #4285f4;
-    background: -moz-linear-gradient(top,#4387fd,#4683ea);
+    
 }
 
 .login {
-    color: white;
+    
     font-style: bold;
     padding-top:12px;
     padding-left: 12px;
@@ -41,6 +41,9 @@ nav {
 .searchfield {
     border-radius: 25px;
     background-image: url(/assets/pic/) ;
+    margin-bottom: 15px;
+    width: 400px;
+    height:30px;
 }
 footer {
     background-color:#f2f2f2;
@@ -52,18 +55,31 @@ footer {
 }
 
 .country {
-    margin-left: 2%;
-    border-bottom:solid 1px black;
+    border-bottom:solid 1px silver;
+    border-top:solid 1px silver;
+    padding-left: 12px;
 }
 
 
 .menu-footer{
     display: flex;
     padding: 0;
-    margin-left: 2%;
     justify-content: space-evenly;
 }
+.footer-legal {
+ 
+border-top: solid 1px silver;
+border-bottom: solid 1px silver;
+display: flex;
+justify-content:space-between;
 
+}
+
+.lien-footer{
+    margin-right: 10px;     
+    text-decoration: none;
+    color: grey;
+}
 .left{
     align-items: flex-start;
     float:left;
